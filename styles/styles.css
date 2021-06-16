@@ -26,19 +26,37 @@
      flex-direction: row;
      justify-content: space-around;
      padding: 0.5em;
+     background-color: blanchedalmond;
     
 
+ }
+
+
+ .player, .computer {
+     border: solid;
+     border-color: black;
  }
 
  .imgContainer {
      display: flex;
      justify-content: space-around;
+     position:relative;
+     top: 4em
 
  }
 
+ .resultText {
+     text-align: center;
+     font-size: 2em;
+     position: relative;
+     top: 1em;
+     background-color: blanchedalmond;
+ }
+
+
  button {
     background-color: transparent;
-    border: dotted;
+    border: none;
  }
 
  img {
