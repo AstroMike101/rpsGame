@@ -76,9 +76,6 @@ scissors.addEventListener('click', () => {
         resultText.textContent = "You win! Rock beats scissors!";
         
         
-
-
-
     }
     else if (playerSelection == "paper" && computerSelection == "rock"){
         playerScore++;
@@ -96,19 +93,19 @@ scissors.addEventListener('click', () => {
     }
     else if (playerSelection == "rock" && computerSelection == "paper") {
         computerScore++;
-        playerScoreText.textContent = `${computerScore}`; 
+        computerScoreText.textContent = `${computerScore}`; 
         resultText.textContent ="You lose! Paper beats rock!";
         
     }
     else if (playerSelection == "scissors" && computerSelection == "rock") {
         computerScore++;
-       playerScoreText.textContent = `${computerScore}`; 
+        computerScoreText.textContent = `${computerScore}`; 
        resultText.textContent = "You lose! Rock beats Scissors!";
         
     }
     else if (playerSelection == "paper" && computerSelection == "scissors") {
         computerScore++;
-        playerScoreText.textContent = `${computerScore}`; 
+        computerScoreText.textContent = `${computerScore}`; 
         resultText.textContent ="You lose! Scissors beats Paper!";
         
     }
