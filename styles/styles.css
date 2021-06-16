@@ -53,6 +53,34 @@
      background-color: blanchedalmond;
  }
 
+ #footerdiv {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    text-align:center;
+    background-color:#545454;
+    color:white;
+    overflow:hidden;
+
+  }
+
+  footer {
+      position:relative;
+      top:10px;
+      left:40px;
+  }
+
+  #githubIcon {
+      position:relative;
+      left:20px;
+      bottom: 8px;
+
+  }
+ 
+
 
  button {
     background-color: transparent;
