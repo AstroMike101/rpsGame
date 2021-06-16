@@ -13,22 +13,44 @@
     font-size: 4em;
     font-family: 'Anton', sans-serif;
  }
+ 
  .scoreBoard1 {
     display:flex; 
     flex-direction: row;
     justify-content: space-around;
  }
  
+ 
  .scoreBoard {
      display:flex; 
      flex-direction: row;
      justify-content: space-around;
+     padding: 0.5em;
+    
 
  }
+
+ .imgContainer {
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ button {
+    background-color: transparent;
+    border: dotted;
+ }
+
  img {
-    width: 10em;
-    height:10em;
-}
+     width: 7em;
+     height: auto; 
+ }
+
+
+ 
+
+ 
+
 
 
 
@@ -62,6 +84,7 @@
 
  /*
  <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+ <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+ <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
  */
  
