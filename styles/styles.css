@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    --mainColor: #b2b2b2;
+}
+        
+    
+    /* classes */
+ .header1 { 
+    color:var(--mainColor);
+    text-align: center;
+    position: relative;
+    font-size: 4em;
+    font-family: 'Anton', sans-serif;
+ }
+ .scoreBoard1 {
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ 
+ .scoreBoard {
+     display:flex; 
+     flex-direction: row;
+     justify-content: space-around;
+
+ }
+ img {
+    width: 10em;
+    height:10em;
+}
+
+
+
+    
+ body {
+    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );
+ }
+    
+ p {
+     font-size: 2em;
+     text-align: center;
+     font-family: 'Anton', sans-serif;
+ }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+ <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+ */
+ 
