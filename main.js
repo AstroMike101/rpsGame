@@ -35,7 +35,8 @@ function computerPlay() {
  }
 
 
-rock.addEventListener('click', () => {
+
+rock.addEventListener('click', () => {  
     playerSelection = 'rock'; 
     playRound();
 } )
@@ -62,11 +63,13 @@ scissors.addEventListener('click', () => {
  function playRound() {
 
     computerSelection = computerPlay();
-
-
+    
+    
+    
     
 
     if (playerSelection == computerSelection) {
+        
         resultText.textContent ="It's a tie!";
     }
     else if (playerSelection == "rock" && computerSelection == "scissors") {
@@ -75,13 +78,11 @@ scissors.addEventListener('click', () => {
         playerScoreText.textContent = `${playerScore}`;
         resultText.textContent = "You win! Rock beats scissors!";
         
-        
     }
     else if (playerSelection == "paper" && computerSelection == "rock"){
         playerScore++;
         playerScoreText.textContent = `${playerScore}`; 
         resultText.textContent = "You win! Paper beats rock!";
-        
 
     }
     else if (playerSelection == "scissors" && computerSelection == "paper") {
@@ -89,7 +90,6 @@ scissors.addEventListener('click', () => {
         playerScoreText.textContent = `${playerScore}`;
         resultText.textContent = "You win! Scissors beats paper!";
         
-
     }
     else if (playerSelection == "rock" && computerSelection == "paper") {
         computerScore++;
@@ -109,9 +109,35 @@ scissors.addEventListener('click', () => {
         resultText.textContent ="You lose! Scissors beats Paper!";
         
     }
-   
-
+    console.log(playerScore);
+    if (playerScore >= 5) {
+        
+        resultText.textContent = "You win the game! You're better then a computer!";
     }
+
+    else if (computerScore >=5 ) {
+        resultText.textContent = "You lose the game! Computer wins! "
+    }
+    
+    
+
+
+
+    
+
+}
+        
+    
+    
+
+
+    
+
+    
+    
+    
+   
+    
 
     
 
