@@ -1,17 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    --mainColor: #b2b2b2;
+    --mainColor: #20639B;
 }
-        
     
     /* classes */
  .header1 { 
-    color:var(--mainColor);
+    color: var(--mainColor);
     text-align: center;
     position: relative;
     font-size: 4em;
     font-family: 'Anton', sans-serif;
+
+ }
+
+ .underHeader {
+    color: #173F5F;
  }
  
  .scoreBoard1 {
@@ -32,10 +36,7 @@
  }
 
 
- .player, .computer {
-     border: solid;
-     border-color: black;
- }
+
 
  .imgContainer {
      display: flex;
@@ -51,7 +52,18 @@
      position: relative;
      top: 1em;
      background-color: blanchedalmond;
+     font-family: 'Anton', sans-serif;
+     font-style: italic;
  }
+
+  .resetScore { 
+    position: relative;
+    top:20px;
+    left: 13px;
+    border: solid;
+    padding: 10px;
+
+  }
 
  #footerdiv {
     display: flex;
@@ -87,6 +99,11 @@
     border: none;
  }
 
+
+ button:hover {
+     transform: scale(1.5);
+ }
+
  img {
      width: 7em;
      height: auto; 
@@ -106,9 +123,11 @@
  }
     
  p {
-     font-size: 2em;
+     
+    font-size: 1.5em;
      text-align: center;
      font-family: 'Anton', sans-serif;
+
  }
 
   
