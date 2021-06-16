@@ -1,0 +1,1 @@
+For this project, I used HTML,CSS, JS. I wanted to practice Dom Manipulation, as well as solidfy my HTML organization and CSS styling.
